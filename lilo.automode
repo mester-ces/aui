@@ -149,7 +149,7 @@
   # 8) Synapse
   # 9) Terminator
   #10) Tilix
-  ACCESSORIES_OPTIONS="4 10"
+  ACCESSORIES_OPTIONS="4 6 10"
 #}}}
 #DEVELOPEMENT {{{
   # 1) Atom
@@ -242,7 +242,7 @@
     # 5) Opera
     # 6) Vivaldi
     # 7) Tor-browser
-    BROWSERS_OPTIONS="3"
+    BROWSERS_OPTIONS="3 7"
   #}}}
   #DOWNLOAD|FILESHARE {{{
     #  1) Deluge
@@ -266,7 +266,7 @@
   #EMAIL|RSS {{{
     # 1) Liferea
     # 2) Thunderbird
-    EMAIL_OPTIONS=""
+    EMAIL_OPTIONS="2"
   #}}}
   #IM|IRC {{{
     # 1) HexChat|Konversation
@@ -338,7 +338,7 @@
     # 8) Popcorn Time
     # 9) VLC
     #10) Kodi
-    VIDEO_PLAYER_OPTIONS="8"
+    VIDEO_PLAYER_OPTIONS="8 1 4"
   #}}}
   #EDITORS|TOOLS {{{
     # 1) Arista
@@ -358,7 +358,7 @@
   #2) PlayOnLinux
   #3) Steam
   #4) Minecraft
-  GAMES_OPTIONS=""
+  GAMES_OPTIONS="3 2"
 #}}}
 #WEBSERVER {{{
   # 1) LAMP - APACHE, MariaDB & PHP
