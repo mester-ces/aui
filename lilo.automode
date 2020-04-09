@@ -33,7 +33,7 @@
   #14) Internationalization
   #15) Extra
   #16) Clean Orphan Packages
-  MAINMENU="1-13"
+  MAINMENU="1-13 16"
 #}}}
 #BASIC SETUP {{{
   CUPS="y"
@@ -113,7 +113,7 @@
     # 3) LightDM
     # 4) SDDM
     # 5) Slim
-    DISPLAY_MANAGER="3"
+    DISPLAY_MANAGER="2"
   #}}}
   # 1) Icons Themes
   # 2) GTK2|GTK3 Themes
@@ -282,7 +282,7 @@
     # 11) Slack
     # 12) VK Messanger
     # 13) Zoom.us
-    IM_OPTIONS="4"
+    IM_OPTIONS="4 8"
   #}}}
   #MAPPING {{{
     # 1) Google Earth
