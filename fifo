@@ -465,7 +465,7 @@ format_partitions() {
 #INSTALL BASE SYSTEM {{{
 select_linux_version() {
   print_title "LINUX VERSION"
-  version_list=("linux (default)" "linux-lts (long term support)" "linux-hardened (security features)")
+  version_list=("linux (default)" "linux-lts (long term support)" "linux-zen")
   PS3="$prompt1"
   echo -e "Select linux version to install\n"
   select VERSION in "${version_list[@]}"; do
@@ -474,8 +474,8 @@ select_linux_version() {
         pacstrap ${MOUNTPOINT} base linux linux-headers
       elif [ "linux-lts (long term support)" == "$VERSION" ]; then
         pacstrap ${MOUNTPOINT} base linux-lts linux-lts-headers
-      elif [ "linux-hardened (security features)" == "$VERSION" ]; then
-        pacstrap ${MOUNTPOINT} base linux-hardened linux-hardened-headers
+      elif [ "linux-zen" == "$VERSION" ]; then
+        pacstrap ${MOUNTPOINT} base linux-zen linux-zen-headers
       fi
       pacstrap ${MOUNTPOINT} \
         cryptsetup lvm2 netctl dhcpcd inetutils jfsutils diffutils e2fsprogs \
